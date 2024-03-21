@@ -1,0 +1,300 @@
+nav,#socialmedia,#logolist{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    gap:1.4rem;
+    font-size: 18px;
+    list-style-type: none;
+}
+nav{
+    margin-top:2rem;
+}
+#logo
+{
+    font-size: 33px;
+}
+#vision
+{
+    color:red;
+}
+#reality
+{
+    color:blue;
+}
+#coding
+{
+    color:green;
+}
+li a{
+color:white;
+text-decoration: none;
+}
+li a:hover{
+    text-decoration: underline blue;
+    text-underline-offset: 1.4rem;;
+}
+#download
+{
+    border-radius:22px;
+    padding:15px;
+    border:none;
+    font-weight: bold;
+    box-shadow:12px 12px 12px grey;
+    font-family: 'Times New Roman', Times, serif;
+}
+#cv
+{
+    border:12px 1
+}
+
+
+body{
+    scroll-behavior: smooth;
+    background-color: black;
+color:white;
+}
+#main
+{
+    display:grid;
+    grid-template-columns: repeat(2,700px);
+    text-align: center;
+    justify-content: center;
+    margin-top:15rem;
+}
+
+#techstack
+{
+    display:flex;
+    flex-direction: row;
+    align-content: center;
+    text-align: center;
+    justify-content:space-evenly;
+    margin-top:11rem;
+}
+#tech1
+{
+    font-size: 22px;
+    font-weight: bold;
+    text-shadow: 12px 12px 12px grey;
+}
+#myselfintro
+{
+    color:gold;
+}
+#aboutme
+{
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    box-sizing: border-box;
+    align-items: center;
+    text-align: center;
+    margin-top:8rem;
+ font-family: 'Times New Roman', Times, serif;
+    color:black;
+    background: linear-gradient(white,silver);
+    box-shadow: 12px 12px 12px grey;
+}
+#tech2
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:1.6rem;
+}
+#education
+{
+    display:flex;
+    color:black;
+    flex-direction: row;
+    justify-content:space-around;
+    padding:10px;
+ margin-top:6rem;
+}
+#certification
+{
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#education1,#education2
+{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border:1px solid black;
+    padding:20px;
+    background: linear-gradient(white,silver);
+    box-shadow: 12px 12px 12px grey;
+}
+#certificationcontent
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#myself
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+    text-shadow: 12px 12px 12px grey;
+}
+legend{
+    font-size: 22px;
+    font-weight: bold;
+}
+#title
+{
+    text-align: center;
+    margin-top:8rem;
+}
+#projects
+{
+    margin-top:6rem;
+    display:grid;
+ grid-template-columns: repeat(3,400px);
+    justify-content: space-around;
+    gap:1rem;
+}
+#projects1,#projects2,#projects3,#projects4,#projects5,#projects6
+{
+    display:flex;
+    border:1px solid black;
+    padding:20px;
+    color:cornflowerblue;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(white,silver);
+box-shadow: 12px 12px 12px grey;
+}
+#imgproject
+{
+border:1px solid black;
+margin-bottom:2rem;
+}
+button
+{
+    cursor:pointer;
+}
+#buttonz
+{
+    display:flex;
+    flex-direction: row;
+    gap:1.5rem;
+    cursor:pointer;
+}
+#profilepic
+{
+    background-color:cornflowerblue;
+    border:10px solid grey;
+    border-radius: 50%;
+
+}
+#pro
+{
+    border-radius: 10px black;;
+    padding:10px;
+    border-radius: 22px;
+}
+#github,#visitme
+{
+    padding:15px;
+    width:100px;
+    font-weight: bold;
+    border-radius:22px;
+    border:none;
+}
+@media (max-width:962px) {
+    nav,#logolist
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+li a:hover
+{
+background-color: grey;
+color:white;
+width:900px;
+}
+#projects
+{
+    display:flex;
+    flex-direction: column;
+}
+#socialmedia,#logo
+{
+    display:none;
+}
+#main
+{
+    display:flex;
+    flex-direction: column;
+    gap:3rem;
+    box-sizing: border-box;
+}
+#section1,#section2
+{
+    gap:1.5rem;
+    margin-bottom:1.5rem;
+}
+#techstack
+{
+display:flex;
+flex-direction: column;
+text-align: center;
+justify-content: center;
+align-items: center;
+margin-right:40px;
+}
+#tech1
+{
+    margin-bottom:4rem;
+}
+#tech2
+{
+    display:grid;
+    padding:20px;
+
+    grid-template-columns: repeat(2,150px);
+}
+#tech2 img
+{
+    border:1px solid black;
+  padding:40px;
+
+}
+#tech2 img:hover{
+    box-shadow: 12px 12px 12px black;
+}
+#education
+{
+    display:flex;
+    flex-direction: column;
+    gap:5rem;
+    justify-content: center;
+text-align: center;
+align-items: center;
+    box-shadow: 12px 12px 12px white;
+}
+#certificationcontent
+{
+    padding:8px;
+}
+#education2
+{
+   
+    border:1px solid black;
+}
+#title
+{
+    text-align: center;;
+}
+}
